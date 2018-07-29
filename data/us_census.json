@@ -1,0 +1,461 @@
+[
+    {
+        "placename": "Alabama", 
+        "statepostal": "AL", 
+        "pop": 4779736.0, 
+        "popSqmi": 94.4, 
+        "fips": "01", 
+        "pctchange": 0.0747984,
+        "legal_same_sex_marriage": "true"
+    }, 
+    {
+        "placename": "Alaska", 
+        "statepostal": "AK", 
+        "pop": 710231.0, 
+        "popSqmi": 1.2, 
+        "fips": "02", 
+        "pctchange": 0.132868,
+        "legal_same_sex_marriage": "true"
+    }, 
+    {
+        "placename": "Arizona", 
+        "statepostal": "AZ", 
+        "pop": 6392017.0, 
+        "popSqmi": 56.3, 
+        "fips": "04", 
+        "pctchange": 0.245854,
+        "legal_same_sex_marriage": "true"
+    }, 
+    {
+        "placename": "Arkansas", 
+        "statepostal": "AR", 
+        "pop": 2915918.0, 
+        "popSqmi": 56.0, 
+        "fips": "05", 
+        "pctchange": 0.0907152,
+        "legal_same_sex_marriage": "false"
+    }, 
+    {
+        "placename": "California", 
+        "statepostal": "CA", 
+        "pop": 37253956.0, 
+        "popSqmi": 239.1, 
+        "fips": "06", 
+        "pctchange": 0.0998566,
+        "legal_same_sex_marriage": "true"
+    }, 
+    {
+        "placename": "Colorado", 
+        "statepostal": "CO", 
+        "pop": 5029196.0, 
+        "popSqmi": 48.5, 
+        "fips": "08", 
+        "pctchange": 0.169238,
+        "legal_same_sex_marriage": "true"
+    }, 
+    {
+        "placename": "Connecticut", 
+        "statepostal": "CT", 
+        "pop": 3574097.0, 
+        "popSqmi": 738.1, 
+        "fips": "09", 
+        "pctchange": 0.0494872,
+        "legal_same_sex_marriage": "true"
+    }, 
+    {
+        "placename": "Delaware", 
+        "statepostal": "DE", 
+        "pop": 897934.0, 
+        "popSqmi": 460.8, 
+        "fips": "10", 
+        "pctchange": 0.145909,
+        "legal_same_sex_marriage": "true"
+    }, 
+    {
+        "placename": "District of Columbia", 
+        "statepostal": "DC", 
+        "pop": 601723.0, 
+        "popSqmi": 9856.5, 
+        "fips": "11", 
+        "pctchange": 0.0518548,
+        "legal_same_sex_marriage": "true"
+    }, 
+    {
+        "placename": "Florida", 
+        "statepostal": "FL", 
+        "pop": 18801310.0, 
+        "popSqmi": 350.6, 
+        "fips": "12", 
+        "pctchange": 0.176378,
+        "legal_same_sex_marriage": "true"
+    }, 
+    {
+        "placename": "Georgia", 
+        "statepostal": "GA", 
+        "pop": 9687653.0, 
+        "popSqmi": 168.4, 
+        "fips": "13", 
+        "pctchange": 0.183376,
+        "legal_same_sex_marriage": "false"
+    }, 
+    {
+        "placename": "Hawaii", 
+        "statepostal": "HI", 
+        "pop": 1360301.0, 
+        "popSqmi": 211.8, 
+        "fips": "15", 
+        "pctchange": 0.122789,
+        "legal_same_sex_marriage": "true"
+    }, 
+    {
+        "placename": "Idaho", 
+        "statepostal": "ID", 
+        "pop": 1567582.0, 
+        "popSqmi": 19.0, 
+        "fips": "16", 
+        "pctchange": 0.211467,
+        "legal_same_sex_marriage": "true"
+    }, 
+    {
+        "placename": "Illinois", 
+        "statepostal": "IL", 
+        "pop": 12830632.0, 
+        "popSqmi": 231.1, 
+        "fips": "17", 
+        "pctchange": 0.033121,
+        "legal_same_sex_marriage": "true"
+    }, 
+    {
+        "placename": "Indiana", 
+        "statepostal": "IN", 
+        "pop": 6483802.0, 
+        "popSqmi": 181.0, 
+        "fips": "18", 
+        "pctchange": 0.0663297,
+        "legal_same_sex_marriage": "true"
+    }, 
+    {
+        "placename": "Iowa", 
+        "statepostal": "IA", 
+        "pop": 3046355.0, 
+        "popSqmi": 54.5, 
+        "fips": "19", 
+        "pctchange": 0.0410177,
+        "legal_same_sex_marriage": "true"
+    }, 
+    {
+        "placename": "Kansas", 
+        "statepostal": "KS", 
+        "pop": 2853118.0, 
+        "popSqmi": 34.9, 
+        "fips": "20", 
+        "pctchange": 0.0612628,
+        "legal_same_sex_marriage": "true"
+    }, 
+    {
+        "placename": "Kentucky", 
+        "statepostal": "KY", 
+        "pop": 4339367.0, 
+        "popSqmi": 109.9, 
+        "fips": "21", 
+        "pctchange": 0.0736306,
+        "legal_same_sex_marriage": "false"
+    }, 
+    {
+        "placename": "Louisiana", 
+        "statepostal": "LA", 
+        "pop": 4533372.0, 
+        "popSqmi": 104.9, 
+        "fips": "22", 
+        "pctchange": 0.0144096,
+        "legal_same_sex_marriage": "false"
+    }, 
+    {
+        "placename": "Maine", 
+        "statepostal": "ME", 
+        "pop": 1328361.0, 
+        "popSqmi": 43.1, 
+        "fips": "23", 
+        "pctchange": 0.0419147,
+        "legal_same_sex_marriage": "true"
+    }, 
+    {
+        "placename": "Maryland", 
+        "statepostal": "MD", 
+        "pop": 5773552.0, 
+        "popSqmi": 594.8, 
+        "fips": "24", 
+        "pctchange": 0.0900722,
+        "legal_same_sex_marriage": "true"
+    }, 
+    {
+        "placename": "Massachusetts", 
+        "statepostal": "MA", 
+        "pop": 6547629.0, 
+        "popSqmi": 839.4, 
+        "fips": "25", 
+        "pctchange": 0.0312693,
+        "legal_same_sex_marriage": "true"
+    }, 
+    {
+        "placename": "Michigan", 
+        "statepostal": "MI", 
+        "pop": 9883640.0, 
+        "popSqmi": 174.8, 
+        "fips": "26", 
+        "pctchange": -0.00551434,
+        "legal_same_sex_marriage": "false"
+    }, 
+    {
+        "placename": "Minnesota", 
+        "statepostal": "MN", 
+        "pop": 5303925.0, 
+        "popSqmi": 66.6, 
+        "fips": "27", 
+        "pctchange": 0.0781477,
+        "legal_same_sex_marriage": "true"
+    }, 
+    {
+        "placename": "Mississippi", 
+        "statepostal": "MS", 
+        "pop": 2967297.0, 
+        "popSqmi": 63.2, 
+        "fips": "28", 
+        "pctchange": 0.043112,
+        "legal_same_sex_marriage": "false"
+    }, 
+    {
+        "placename": "Missouri", 
+        "statepostal": "MO", 
+        "pop": 5988927.0, 
+        "popSqmi": 87.1, 
+        "fips": "29", 
+        "pctchange": 0.0703666,
+        "legal_same_sex_marriage": "false"
+    }, 
+    {
+        "placename": "Montana", 
+        "statepostal": "MT", 
+        "pop": 989415.0, 
+        "popSqmi": 6.8, 
+        "fips": "30", 
+        "pctchange": 0.0966753,
+        "legal_same_sex_marriage": "true"
+    }, 
+    {
+        "placename": "Nebraska", 
+        "statepostal": "NE", 
+        "pop": 1826341.0, 
+        "popSqmi": 23.8, 
+        "fips": "31", 
+        "pctchange": 0.0672474,
+        "legal_same_sex_marriage": "false"
+    }, 
+    {
+        "placename": "Nevada", 
+        "statepostal": "NV", 
+        "pop": 2700551.0, 
+        "popSqmi": 24.6, 
+        "fips": "32", 
+        "pctchange": 0.351453,
+        "legal_same_sex_marriage": "true"
+    }, 
+    {
+        "placename": "New Hampshire", 
+        "statepostal": "NH", 
+        "pop": 1316470.0, 
+        "popSqmi": 147.0, 
+        "fips": "33", 
+        "pctchange": 0.0652896,
+        "legal_same_sex_marriage": "true"
+    }, 
+    {
+        "placename": "New Jersey", 
+        "statepostal": "NJ", 
+        "pop": 8791894.0, 
+        "popSqmi": 1195.5, 
+        "fips": "34", 
+        "pctchange": 0.0448691,
+        "legal_same_sex_marriage": "true"
+    }, 
+    {
+        "placename": "New Mexico", 
+        "statepostal": "NM", 
+        "pop": 2059179.0, 
+        "popSqmi": 17.0, 
+        "fips": "35", 
+        "pctchange": 0.13201,
+        "legal_same_sex_marriage": "true"
+    }, 
+    {
+        "placename": "New York", 
+        "statepostal": "NY", 
+        "pop": 19378102.0, 
+        "popSqmi": 411.2, 
+        "fips": "36", 
+        "pctchange": 0.0211654,
+        "legal_same_sex_marriage": "true"
+    }, 
+    {
+        "placename": "North Carolina", 
+        "statepostal": "NC", 
+        "pop": 9535483.0, 
+        "popSqmi": 196.1, 
+        "fips": "37", 
+        "pctchange": 0.184633,
+        "legal_same_sex_marriage": "true"
+    }, 
+    {
+        "placename": "North Dakota", 
+        "statepostal": "ND", 
+        "pop": 672591.0, 
+        "popSqmi": 9.7, 
+        "fips": "38", 
+        "pctchange": 0.0473233,
+        "legal_same_sex_marriage": "false"
+    }, 
+    {
+        "placename": "Ohio", 
+        "statepostal": "OH", 
+        "pop": 11536504.0, 
+        "popSqmi": 282.3, 
+        "fips": "39", 
+        "pctchange": 0.016151,
+        "legal_same_sex_marriage": "false"
+    }, 
+    {
+        "placename": "Oklahoma", 
+        "statepostal": "OK", 
+        "pop": 3751351.0, 
+        "popSqmi": 54.7, 
+        "fips": "40", 
+        "pctchange": 0.087142,
+        "legal_same_sex_marriage": "true"
+    }, 
+    {
+        "placename": "Oregon", 
+        "statepostal": "OR", 
+        "pop": 3831074.0, 
+        "popSqmi": 39.9, 
+        "fips": "41", 
+        "pctchange": 0.119739,
+        "legal_same_sex_marriage": "true"
+    }, 
+    {
+        "placename": "Pennsylvania", 
+        "statepostal": "PA", 
+        "pop": 12702379.0, 
+        "popSqmi": 283.9, 
+        "fips": "42", 
+        "pctchange": 0.0343069,
+        "legal_same_sex_marriage": "true"
+    }, 
+    {
+        "placename": "Rhode Island", 
+        "statepostal": "RI", 
+        "pop": 1052567.0, 
+        "popSqmi": 1018.1, 
+        "fips": "44", 
+        "pctchange": 0.0040522,
+        "legal_same_sex_marriage": "true"
+    }, 
+    {
+        "placename": "South Carolina", 
+        "statepostal": "SC", 
+        "pop": 4625364.0, 
+        "popSqmi": 153.9, 
+        "fips": "45", 
+        "pctchange": 0.152879,
+        "legal_same_sex_marriage": "true"
+    }, 
+    {
+        "placename": "South Dakota", 
+        "statepostal": "SD", 
+        "pop": 814180.0, 
+        "popSqmi": 10.7, 
+        "fips": "46", 
+        "pctchange": 0.078607,
+        "legal_same_sex_marriage": "true"
+    }, 
+    {
+        "placename": "Tennessee", 
+        "statepostal": "TN", 
+        "pop": 6346105.0, 
+        "popSqmi": 153.9, 
+        "fips": "47", 
+        "pctchange": 0.115449,
+        "legal_same_sex_marriage": "false"
+    }, 
+    {
+        "placename": "Texas", 
+        "statepostal": "TX", 
+        "pop": 25145561.0, 
+        "popSqmi": 96.3, 
+        "fips": "48", 
+        "pctchange": 0.205917,
+        "legal_same_sex_marriage": "false"
+    }, 
+    {
+        "placename": "Utah", 
+        "statepostal": "UT", 
+        "pop": 2763885.0, 
+        "popSqmi": 33.6, 
+        "fips": "49", 
+        "pctchange": 0.237652,
+        "legal_same_sex_marriage": "true"
+    }, 
+    {
+        "placename": "Vermont", 
+        "statepostal": "VT", 
+        "pop": 625741.0, 
+        "popSqmi": 67.9, 
+        "fips": "50", 
+        "pctchange": 0.0277813,
+        "legal_same_sex_marriage": "true"
+    }, 
+    {
+        "placename": "Virginia", 
+        "statepostal": "VA", 
+        "pop": 8001024.0, 
+        "popSqmi": 202.6, 
+        "fips": "51", 
+        "pctchange": 0.130325,
+        "legal_same_sex_marriage": "true"
+    }, 
+    {
+        "placename": "Washington", 
+        "statepostal": "WA", 
+        "pop": 6724540.0, 
+        "popSqmi": 101.2, 
+        "fips": "53", 
+        "pctchange": 0.140889,
+        "legal_same_sex_marriage": "true"
+    }, 
+    {
+        "placename": "West Virginia", 
+        "statepostal": "WV", 
+        "pop": 1852994.0, 
+        "popSqmi": 77.1, 
+        "fips": "54", 
+        "pctchange": 0.0246911,
+        "legal_same_sex_marriage": "true"
+    }, 
+    {
+        "placename": "Wisconsin", 
+        "statepostal": "WI", 
+        "pop": 5686986.0, 
+        "popSqmi": 105.0, 
+        "fips": "55", 
+        "pctchange": 0.0602779,
+        "legal_same_sex_marriage": "true"
+    }, 
+    {
+        "placename": "Wyoming", 
+        "statepostal": "WY", 
+        "pop": 563626.0, 
+        "popSqmi": 5.8, 
+        "fips": "56", 
+        "pctchange": 0.141447,
+        "legal_same_sex_marriage": "true"
+    }
+]

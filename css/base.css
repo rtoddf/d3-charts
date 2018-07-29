@@ -1,0 +1,328 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+h3, h4 {
+    margin-bottom: 15px;
+}
+
+ul {
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+/* flexbox */
+.flex-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flex-row {
+    display: flex;
+    
+}
+
+.flex-item {
+    flex: 1 1 0;
+    position: relative;
+    margin: 20px 0 20px 20px;
+}
+
+.flex-row[data-margin="0"] .flex-item,
+.flex-row[data-margin="0"] .flex-item:last-child {
+    margin: 0;
+}
+
+div[data-layout="column"] {
+    display: flex;
+    flex-direction: column;
+}
+
+/* all evenly distributed cols */
+.flex-row .flex-item {
+    flex: 1 1 0;
+    position: relative;
+    margin: 20px 0 20px 20px;
+}
+
+.flex-row .flex-item:last-child {
+    margin-right: 20px;
+}
+
+.flex-item .flex-row .flex-item {
+    margin-top: 0;
+}
+
+
+.flex-item[data-weight="2"]{
+    flex: 2 2 40px;
+}
+
+.flex-item[data-weight="3"]{
+    flex: 3 3 40px;
+}
+
+.flex-item[data-weight="4"]{
+    flex: 4 4 40px;
+}
+
+/* centered images */
+.flex-item[data-image-layout="square"]:after {
+    content: "";
+    float: left;
+    display: block;
+    padding-top: 100%;
+}
+
+.flex-item[data-image-layout="square"] .tile {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.flex-item[data-image-layout="square"] .image-holder {
+    height: 100%;
+}
+
+.flex-item[data-image-layout="square"] .image-holder img {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    transition: all .6s ease;
+}
+
+.flex-item[data-image-layout="square"] .image-holder img:hover {
+    width: 110%;
+    height: 110%;
+    max-width: 110%;
+    max-height: 110%;
+    margin: -5%;
+}
+
+
+/*-----------------------------------------------------------------------------------*\
+    #Charts
+\*-----------------------------------------------------------------------------------*/
+.chart-label {
+    fill: #464646;
+    text-anchor: end;
+    font-size: 11px;
+}
+
+#chart {
+    font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    shape-rendering: crispEdges;
+}
+
+.x.axis path,
+.y.axis path {
+    display: none;
+}
+
+.unemployment .x.axis line {
+    stroke: #fff;
+    stroke-opacity: .8;
+}
+
+.unemployment .y.axis path {
+    stroke: #000;
+}
+
+.line_chart .axis path,
+.line_chart .axis line,
+.bar .line path,
+.bar .line line {
+    stroke: #999;
+    display: block;
+}
+
+.line_chart .axis path .y.axis path,
+.bar .axis line .y.axis path {
+    stroke: none;
+}
+
+.line_chart .axis path,
+.bar .axis line {
+    stroke: none;
+}
+
+.line_chart.animated,
+.line_chart.oscars,
+.bar.animated,
+.bar.oscars {
+     position: relative;
+}
+
+.line_chart.animated #chart,
+.line_chart.oscars #chart,
+.bar.animated #chart,
+.bar.oscars #chart {
+    background: #000;
+    padding: 10px 20px;
+}
+
+.line_chart.animated .line,
+.line_chart.oscars .line,
+.bar.animated .line,
+.bar.oscars .line {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 1.5px;
+}
+
+.line_chart.animated .y.axis line,
+.line_chart.oscars .y.axis line,
+.bar.animated .y.axis line,
+.bar.oscars .y.axis line {
+    stroke: #999;
+    stroke-dasharray: 2,2;
+}
+
+.line_chart.animated .tick,
+.line_chart.oscars  .tick,
+.bar.animated .tick,
+.bar.oscars .tick {
+    fill: #fff;
+    opacity: .9;
+}
+
+.line_chart.animated img,
+.line_chart.oscars img,
+.bar.animated img,
+.bar.oscars img {
+    width: 100%;
+}
+
+.line_chart.animated .axis text,
+.line_chart.oscars .axis text,
+.bar.animated .axis text,
+.bar.oscars .axis text {
+    fill: #fff;
+    opacity: .9;
+}
+
+.line_chart.animated .axis line,
+.line_chart.oscars .axis line,
+.bar.animated .axis line,
+.bar.oscars .axis line {
+    fill: #fff;
+    opacity: .9;
+    stroke: #fff;
+}
+
+.symbol {
+    pointer-events: none;
+}
+
+#premiums_chart {
+    font: 10px sans-serif;
+}
+
+.transition04 path {
+    fill-rule: evenodd;
+    fill: #aaa;
+    fill-opacity: .7;
+    stroke: #666;
+    stroke-width: 1.5px;
+}
+
+/* trig styles */
+#animated_trig .circle, #animated_trig .wave {
+    fill: none;
+    stroke: steelblue;
+    stroke-width: 1.5px;
+}
+
+#animated_trig .circle {
+    stroke: black;
+}
+
+#animated_trig .axis {
+    fill: none;
+    stroke: black;
+    stroke-width: 1px;
+}
+
+#animated_trig .edge {
+        stroke: #ccc;
+        stroke-width: 1px;
+    }
+
+#animated_trig .line {
+    stroke: yellow;
+    stroke-width: 1.5px;
+}
+
+#animated_trig #dot {
+    fill: black;
+}
+
+#animated_trig .filler {
+    fill: white;
+}
+
+/*-----------------------------------------------------------------------------------*\
+    #Tooltip 
+\*-----------------------------------------------------------------------------------*/
+.tooltip,
+.over_tooltip {
+  position: absolute;
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.75);
+  color: #000;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+  font: 12px sans-serif;
+  line-height: auto;
+  pointer-events: none;
+}
+.tooltip p,
+.over_tooltip p {
+  margin-bottom: 3px;
+}
+.tooltip td,
+.over_tooltip td {
+  padding: 3px;
+}
+
+/*-----------------------------------------------------------------------------------*\
+    #simple chart tweaks
+\*-----------------------------------------------------------------------------------*/
+.pie.display {
+    margin-top: 20px;
+}
+
+.line_chart .axis path,
+.line_chart .axis line,
+.line_chart .line path,
+.line_chart .line line {
+    stroke: #999;
+    display: block;
+}
+
+.transition03 path {
+    fill-rule: evenodd;
+    stroke: #fff;
+    stroke-width: 1.5px;
+}

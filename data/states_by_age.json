@@ -1,0 +1,453 @@
+[
+    {
+        "18 to 24 Years": "450818", 
+        "45 to 64 Years": "1215966", 
+        "State": "AL", 
+        "5 to 13 Years": "552339", 
+        "Under 5 Years": "310504", 
+        "25 to 44 Years": "1231572", 
+        "14 to 17 Years": "259034", 
+        "65 Years and Over": "641667"
+    }, {
+        "18 to 24 Years": "74257", 
+        "45 to 64 Years": "183159", 
+        "State": "AK", 
+        "5 to 13 Years": "85640", 
+        "Under 5 Years": "52083", 
+        "25 to 44 Years": "198724", 
+        "14 to 17 Years": "42153", 
+        "65 Years and Over": "50277"
+    }, {
+        "18 to 24 Years": "601943", 
+        "45 to 64 Years": "1523681", 
+        "State": "AZ", 
+        "5 to 13 Years": "828669", 
+        "Under 5 Years": "515910", 
+        "25 to 44 Years": "1804762", 
+        "14 to 17 Years": "362642", 
+        "65 Years and Over": "862573"
+    }, {
+        "18 to 24 Years": "264160", 
+        "45 to 64 Years": "727124", 
+        "State": "AR", 
+        "5 to 13 Years": "343207", 
+        "Under 5 Years": "202070", 
+        "25 to 44 Years": "754420", 
+        "14 to 17 Years": "157204", 
+        "65 Years and Over": "407205"
+    }, {
+        "18 to 24 Years": "3853788", 
+        "45 to 64 Years": "8819342", 
+        "State": "CA", 
+        "5 to 13 Years": "4499890", 
+        "Under 5 Years": "2704659", 
+        "25 to 44 Years": "10604510", 
+        "14 to 17 Years": "2159981", 
+        "65 Years and Over": "4114496"
+    }, {
+        "18 to 24 Years": "466194", 
+        "45 to 64 Years": "1290094", 
+        "State": "CO", 
+        "5 to 13 Years": "587154", 
+        "Under 5 Years": "358280", 
+        "25 to 44 Years": "1464939", 
+        "14 to 17 Years": "261701", 
+        "65 Years and Over": "511094"
+    }, {
+        "18 to 24 Years": "325110", 
+        "45 to 64 Years": "968967", 
+        "State": "CT", 
+        "5 to 13 Years": "403658", 
+        "Under 5 Years": "211637", 
+        "25 to 44 Years": "916955", 
+        "14 to 17 Years": "196918", 
+        "65 Years and Over": "478007"
+    }, {
+        "18 to 24 Years": "84464", 
+        "45 to 64 Years": "230528", 
+        "State": "DE", 
+        "5 to 13 Years": "99496", 
+        "Under 5 Years": "59319", 
+        "25 to 44 Years": "230183", 
+        "14 to 17 Years": "47414", 
+        "65 Years and Over": "121688"
+    }, {
+        "18 to 24 Years": "1607297", 
+        "45 to 64 Years": "4746856", 
+        "State": "FL", 
+        "5 to 13 Years": "1938695", 
+        "Under 5 Years": "1140516", 
+        "25 to 44 Years": "4782119", 
+        "14 to 17 Years": "925060", 
+        "65 Years and Over": "3187797"
+    }, {
+        "18 to 24 Years": "919876", 
+        "45 to 64 Years": "2389018", 
+        "State": "GA", 
+        "5 to 13 Years": "1250460", 
+        "Under 5 Years": "740521", 
+        "25 to 44 Years": "2846985", 
+        "14 to 17 Years": "557860", 
+        "65 Years and Over": "981024"
+    }, {
+        "18 to 24 Years": "124834", 
+        "45 to 64 Years": "331817", 
+        "State": "HI", 
+        "5 to 13 Years": "134025", 
+        "Under 5 Years": "87207", 
+        "25 to 44 Years": "356237", 
+        "14 to 17 Years": "64011", 
+        "65 Years and Over": "190067"
+    }, {
+        "18 to 24 Years": "147606", 
+        "45 to 64 Years": "375173", 
+        "State": "ID", 
+        "5 to 13 Years": "201192", 
+        "Under 5 Years": "121746", 
+        "25 to 44 Years": "406247", 
+        "14 to 17 Years": "89702", 
+        "65 Years and Over": "182150"
+    }, {
+        "18 to 24 Years": "1311479", 
+        "45 to 64 Years": "3239173", 
+        "State": "IL", 
+        "5 to 13 Years": "1558919", 
+        "Under 5 Years": "894368", 
+        "25 to 44 Years": "3596343", 
+        "14 to 17 Years": "725973", 
+        "65 Years and Over": "1575308"
+    }, {
+        "18 to 24 Years": "605863", 
+        "45 to 64 Years": "1647881", 
+        "State": "IN", 
+        "5 to 13 Years": "780199", 
+        "Under 5 Years": "443089", 
+        "25 to 44 Years": "1724528", 
+        "14 to 17 Years": "361393", 
+        "65 Years and Over": "813839"
+    }, {
+        "18 to 24 Years": "306398", 
+        "45 to 64 Years": "788485", 
+        "State": "IA", 
+        "5 to 13 Years": "345409", 
+        "Under 5 Years": "201321", 
+        "25 to 44 Years": "750505", 
+        "14 to 17 Years": "165883", 
+        "65 Years and Over": "444554"
+    }, {
+        "18 to 24 Years": "293114", 
+        "45 to 64 Years": "713663", 
+        "State": "KS", 
+        "5 to 13 Years": "342134", 
+        "Under 5 Years": "202529", 
+        "25 to 44 Years": "728166", 
+        "14 to 17 Years": "155822", 
+        "65 Years and Over": "366706"
+    }, {
+        "18 to 24 Years": "381394", 
+        "45 to 64 Years": "1134283", 
+        "State": "KY", 
+        "5 to 13 Years": "493536", 
+        "Under 5 Years": "284601", 
+        "25 to 44 Years": "1179637", 
+        "14 to 17 Years": "229927", 
+        "65 Years and Over": "565867"
+    }, {
+        "18 to 24 Years": "471275", 
+        "45 to 64 Years": "1128771", 
+        "State": "LA", 
+        "5 to 13 Years": "542341", 
+        "Under 5 Years": "310716", 
+        "25 to 44 Years": "1162463", 
+        "14 to 17 Years": "254916", 
+        "65 Years and Over": "540314"
+    }, {
+        "18 to 24 Years": "112682", 
+        "45 to 64 Years": "397911", 
+        "State": "ME", 
+        "5 to 13 Years": "133656", 
+        "Under 5 Years": "71459", 
+        "25 to 44 Years": "331809", 
+        "14 to 17 Years": "69752", 
+        "65 Years and Over": "199187"
+    }, {
+        "18 to 24 Years": "543470", 
+        "45 to 64 Years": "1513754", 
+        "State": "MD", 
+        "5 to 13 Years": "651923", 
+        "Under 5 Years": "371787", 
+        "25 to 44 Years": "1556225", 
+        "14 to 17 Years": "316873", 
+        "65 Years and Over": "679565"
+    }, {
+        "18 to 24 Years": "665879", 
+        "45 to 64 Years": "1751508", 
+        "State": "MA", 
+        "5 to 13 Years": "701752", 
+        "Under 5 Years": "383568", 
+        "25 to 44 Years": "1782449", 
+        "14 to 17 Years": "341713", 
+        "65 Years and Over": "871098"
+    }, {
+        "18 to 24 Years": "974480", 
+        "45 to 64 Years": "2706100", 
+        "State": "MI", 
+        "5 to 13 Years": "1179503", 
+        "Under 5 Years": "625526", 
+        "25 to 44 Years": "2628322", 
+        "14 to 17 Years": "585169", 
+        "65 Years and Over": "1304322"
+    }, {
+        "18 to 24 Years": "507289", 
+        "45 to 64 Years": "1391878", 
+        "State": "MN", 
+        "5 to 13 Years": "606802", 
+        "Under 5 Years": "358471", 
+        "25 to 44 Years": "1416063", 
+        "14 to 17 Years": "289371", 
+        "65 Years and Over": "650519"
+    }, {
+        "18 to 24 Years": "305964", 
+        "45 to 64 Years": "730133", 
+        "State": "MS", 
+        "5 to 13 Years": "371502", 
+        "Under 5 Years": "220813", 
+        "25 to 44 Years": "764203", 
+        "14 to 17 Years": "174405", 
+        "65 Years and Over": "371598"
+    }, {
+        "18 to 24 Years": "560463", 
+        "45 to 64 Years": "1554812", 
+        "State": "MO", 
+        "5 to 13 Years": "690476", 
+        "Under 5 Years": "399450", 
+        "25 to 44 Years": "1569626", 
+        "14 to 17 Years": "331543", 
+        "65 Years and Over": "805235"
+    }, {
+        "18 to 24 Years": "95232", 
+        "45 to 64 Years": "278241", 
+        "State": "MT", 
+        "5 to 13 Years": "106088", 
+        "Under 5 Years": "61114", 
+        "25 to 44 Years": "236297", 
+        "14 to 17 Years": "53156", 
+        "65 Years and Over": "137312"
+    }, {
+        "18 to 24 Years": "186657", 
+        "45 to 64 Years": "451756", 
+        "State": "NE", 
+        "5 to 13 Years": "215265", 
+        "Under 5 Years": "132092", 
+        "25 to 44 Years": "457177", 
+        "14 to 17 Years": "99638", 
+        "65 Years and Over": "240847"
+    }, {
+        "18 to 24 Years": "212379", 
+        "45 to 64 Years": "653357", 
+        "State": "NV", 
+        "5 to 13 Years": "325650", 
+        "Under 5 Years": "199175", 
+        "25 to 44 Years": "769913", 
+        "14 to 17 Years": "142976", 
+        "65 Years and Over": "296717"
+    }, {
+        "18 to 24 Years": "119114", 
+        "45 to 64 Years": "388250", 
+        "State": "NH", 
+        "5 to 13 Years": "144235", 
+        "Under 5 Years": "75297", 
+        "25 to 44 Years": "345109", 
+        "14 to 17 Years": "73826", 
+        "65 Years and Over": "169978"
+    }, {
+        "18 to 24 Years": "769321", 
+        "45 to 64 Years": "2335168", 
+        "State": "NJ", 
+        "5 to 13 Years": "1011656", 
+        "Under 5 Years": "557421", 
+        "25 to 44 Years": "2379649", 
+        "14 to 17 Years": "478505", 
+        "65 Years and Over": "1150941"
+    }, {
+        "18 to 24 Years": "203097", 
+        "45 to 64 Years": "501604", 
+        "State": "NM", 
+        "5 to 13 Years": "241326", 
+        "Under 5 Years": "148323", 
+        "25 to 44 Years": "517154", 
+        "14 to 17 Years": "112801", 
+        "65 Years and Over": "260051"
+    }, {
+        "18 to 24 Years": "1999120", 
+        "45 to 64 Years": "5120254", 
+        "State": "NY", 
+        "5 to 13 Years": "2141490", 
+        "Under 5 Years": "1208495", 
+        "25 to 44 Years": "5355235", 
+        "14 to 17 Years": "1058031", 
+        "65 Years and Over": "2607672"
+    }, {
+        "18 to 24 Years": "883397", 
+        "45 to 64 Years": "2380685", 
+        "State": "NC", 
+        "5 to 13 Years": "1097890", 
+        "Under 5 Years": "652823", 
+        "25 to 44 Years": "2575603", 
+        "14 to 17 Years": "492964", 
+        "65 Years and Over": "1139052"
+    }, {
+        "18 to 24 Years": "82629", 
+        "45 to 64 Years": "166615", 
+        "State": "ND", 
+        "5 to 13 Years": "67358", 
+        "Under 5 Years": "41896", 
+        "25 to 44 Years": "154913", 
+        "14 to 17 Years": "33794", 
+        "65 Years and Over": "94276"
+    }, {
+        "18 to 24 Years": "1081734", 
+        "45 to 64 Years": "3083815", 
+        "State": "OH", 
+        "5 to 13 Years": "1340492", 
+        "Under 5 Years": "743750", 
+        "25 to 44 Years": "3019147", 
+        "14 to 17 Years": "646135", 
+        "65 Years and Over": "1570837"
+    }, {
+        "18 to 24 Years": "369916", 
+        "45 to 64 Years": "918688", 
+        "State": "OK", 
+        "5 to 13 Years": "438926", 
+        "Under 5 Years": "266547", 
+        "25 to 44 Years": "957085", 
+        "14 to 17 Years": "200562", 
+        "65 Years and Over": "490637"
+    }, {
+        "18 to 24 Years": "338162", 
+        "45 to 64 Years": "1036269", 
+        "State": "OR", 
+        "5 to 13 Years": "424167", 
+        "Under 5 Years": "243483", 
+        "25 to 44 Years": "1044056", 
+        "14 to 17 Years": "199925", 
+        "65 Years and Over": "503998"
+    }, {
+        "18 to 24 Years": "1203944", 
+        "45 to 64 Years": "3414001", 
+        "State": "PA", 
+        "5 to 13 Years": "1345341", 
+        "Under 5 Years": "737462", 
+        "25 to 44 Years": "3157759", 
+        "14 to 17 Years": "679201", 
+        "65 Years and Over": "1910571"
+    }, {
+        "18 to 24 Years": "114502", 
+        "45 to 64 Years": "282321", 
+        "State": "RI", 
+        "5 to 13 Years": "111408", 
+        "Under 5 Years": "60934", 
+        "25 to 44 Years": "277779", 
+        "14 to 17 Years": "56198", 
+        "65 Years and Over": "147646"
+    }, {
+        "18 to 24 Years": "438147", 
+        "45 to 64 Years": "1186019", 
+        "State": "SC", 
+        "5 to 13 Years": "517803", 
+        "Under 5 Years": "303024", 
+        "25 to 44 Years": "1193112", 
+        "14 to 17 Years": "245400", 
+        "65 Years and Over": "596295"
+    }, {
+        "18 to 24 Years": "82869", 
+        "45 to 64 Years": "210178", 
+        "State": "SD", 
+        "5 to 13 Years": "94438", 
+        "Under 5 Years": "58566", 
+        "25 to 44 Years": "196738", 
+        "14 to 17 Years": "45305", 
+        "65 Years and Over": "116100"
+    }, {
+        "18 to 24 Years": "550612", 
+        "45 to 64 Years": "1646623", 
+        "State": "TN", 
+        "5 to 13 Years": "725948", 
+        "Under 5 Years": "416334", 
+        "25 to 44 Years": "1719433", 
+        "14 to 17 Years": "336312", 
+        "65 Years and Over": "819626"
+    }, {
+        "18 to 24 Years": "2454721", 
+        "45 to 64 Years": "5656528", 
+        "State": "TX", 
+        "5 to 13 Years": "3277946", 
+        "Under 5 Years": "2027307", 
+        "25 to 44 Years": "7017731", 
+        "14 to 17 Years": "1420518", 
+        "65 Years and Over": "2472223"
+    }, {
+        "18 to 24 Years": "329585", 
+        "45 to 64 Years": "538978", 
+        "State": "UT", 
+        "5 to 13 Years": "413034", 
+        "Under 5 Years": "268916", 
+        "25 to 44 Years": "772024", 
+        "14 to 17 Years": "167685", 
+        "65 Years and Over": "246202"
+    }, {
+        "18 to 24 Years": "61679", 
+        "45 to 64 Years": "188593", 
+        "State": "VT", 
+        "5 to 13 Years": "62538", 
+        "Under 5 Years": "32635", 
+        "25 to 44 Years": "155419", 
+        "14 to 17 Years": "33757", 
+        "65 Years and Over": "86649"
+    }, {
+        "18 to 24 Years": "768475", 
+        "45 to 64 Years": "2033550", 
+        "State": "VA", 
+        "5 to 13 Years": "887525", 
+        "Under 5 Years": "522672", 
+        "25 to 44 Years": "2203286", 
+        "14 to 17 Years": "413004", 
+        "65 Years and Over": "940577"
+    }, {
+        "18 to 24 Years": "610378", 
+        "45 to 64 Years": "1762811", 
+        "State": "WA", 
+        "5 to 13 Years": "750274", 
+        "Under 5 Years": "433119", 
+        "25 to 44 Years": "1850983", 
+        "14 to 17 Years": "357782", 
+        "65 Years and Over": "783877"
+    }, {
+        "18 to 24 Years": "157989", 
+        "45 to 64 Years": "514505", 
+        "State": "WV", 
+        "5 to 13 Years": "189649", 
+        "Under 5 Years": "105435", 
+        "25 to 44 Years": "470749", 
+        "14 to 17 Years": "91074", 
+        "65 Years and Over": "285067"
+    }, {
+        "18 to 24 Years": "553914", 
+        "45 to 64 Years": "1522038", 
+        "State": "WI", 
+        "5 to 13 Years": "640286", 
+        "Under 5 Years": "362277", 
+        "25 to 44 Years": "1487457", 
+        "14 to 17 Years": "311849", 
+        "65 Years and Over": "750146"
+    }, {
+        "18 to 24 Years": "53980", 
+        "45 to 64 Years": "147279", 
+        "State": "WY", 
+        "5 to 13 Years": "60890", 
+        "Under 5 Years": "38253", 
+        "25 to 44 Years": "137338", 
+        "14 to 17 Years": "29314", 
+        "65 Years and Over": "65614"
+    }
+]

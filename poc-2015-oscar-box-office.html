@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Interfaces - D3</title>
+		<link href="css/base.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<div class="flex-container">
+			<div class="flex-row">
+				<div class="flex-item">
+					<h3>2015 Oscar Box Office Grosses</h3>
+                    <p>The line chart below shows the weekly grosses of seven of the eight 2015 Oscar nominted best pictures. (American Sniper has been omitted because of extreme outliers.) Click on a movie's name to see its grosses for the first ten weeks after its release.</p>
+                    <p>Hover over any dot to see that week's grosses by date.</p>
+                    <p class="source">Source: <a href="http://www.boxofficemojo.com/movies" target="_blank">Box Office Mojo</a></p>
+                    <div class="choices">
+                        <div class="btn-group btn-group-justified" role="group">
+                            <!--
+                            <a class="btn" rel="program-share-modal" data-type="American Sniper" role="button">
+                                <i class="icon-tech-graph"></i> <span>American Sniper</span>
+                            </a>
+                            -->
+                            <a class="btn" rel="program-share-modal" data-type="Birdman" role="button">
+                                <i class="icon-tech-graph"></i> <span>Birdman</span>
+                            </a>
+                            <a class="btn" rel="program-share-modal" data-type="Boyhood" role="button">
+                                <i class="icon-tech-graph"></i> <span>Boyhood</span>
+                            </a>
+                            <a class="btn" rel="program-share-modal" data-type="The Grand Budapest Hotel" role="button">
+                                <i class="icon-tech-graph"></i> <span>The Grand Budapest Hotel</span>
+                            </a>
+                            <a class="btn" rel="program-share-modal" data-type="The Imitation Game" role="button">
+                                <i class="icon-tech-graph"></i> <span>The Imitation Game</span>
+                            </a>
+                        </div>
+                        <div class="btn-group btn-group-justified" role="group">
+                            <a class="btn" rel="program-share-modal" data-type="Selma" role="button">
+                                <i class="icon-tech-graph"></i> <span>Selma</span>
+                            </a>
+                            <a class="btn" rel="program-share-modal" data-type="The Theory of Everything" role="button">
+                                <i class="icon-tech-graph"></i> <span>The Theory of Everything</span>
+                            </a>
+                            <a class="btn" rel="program-share-modal" data-type="Whiplash" role="button">
+                                <i class="icon-tech-graph"></i> <span>Whiplash</span>
+                            </a>
+                            <a class="btn" rel="program-share-modal" data-type="The Theory of Everything" role="button">
+                            </a>
+                        </div>
+                    </div>
+				</div>
+			</div>
+			<div class="flex-row">
+				<div class="flex-item">
+					<div class="display">
+                        <div class="line_chart oscars display">
+                            <div id="chart"></div>
+                        </div>
+	                </div>
+				</div>
+			</div>
+		</div>
+
+		<script src="../scripts/lib/jquery/jquery.min.js"></script>
+		<script src="../scripts/lib/d3.min.js"></script>
+		<script src="../scripts/lib/queue.v1.min.js"></script>
+		<script src="../scripts/lib/underscore-min.js"></script>
+		<script src="scripts/poc-2015-oscar-box-office.js"></script>
+	</body>
+</html>

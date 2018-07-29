@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Interfaces - D3</title>
+        <link href="css/base.css" rel="stylesheet" />
+        <link href="../css/rtodd/rtodd.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="flex-container">
+            <div class="flex-row">
+                <div class="flex-item">
+                    <h3>Animated Line Chart</h3>
+                    <p>This animated line chart will track progess for four or more items over time. The nodes also have a hover state so the user can see the stats for that particular date. This is currently fake data.</p>
+                    <p>Click a button below to change the data in the chart.</p>
+                    <div class="btn-group btn-group-justified" role="group">
+                        <a class="btn" rel="program-share-modal" data-type="browse" role="button">
+                            <i class="icon-tech-graph"></i> <span>Browse</span>
+                        </a>
+                        <a class="btn" rel="program-share-modal" data-type="search" role="button">
+                            <i class="icon-tech-graph"></i> <span>Search</span>
+                        </a>
+                        <a class="btn" rel="program-share-modal" data-type="add" role="button">
+                            <i class="icon-tech-graph"></i> <span>Add</span>
+                        </a>
+                        <a class="btn" rel="program-share-modal" data-type="watch" role="button">
+                            <i class="icon-tech-graph"></i> <span>Watch</span>
+                        </a>
+                    </div>
+
+                    <div class="line_chart animated display">
+                        <div id="chart"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="../scripts/lib/jquery/jquery.min.js"></script>
+        <script src="../scripts/lib/d3.min.js"></script>
+        <script src="../scripts/lib/queue.v1.min.js"></script>
+        <script src="../scripts/lib/underscore-min.js"></script>
+        <script src="scripts/poc-animated-line-chart.js"></script>
+    </body>
+</html>

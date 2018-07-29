@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Interfaces - D3</title>
+		<link href="css/base.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<div class="flex-container">
+			<div class="flex-row">
+				<div class="flex-item">
+					<h3>Bad drivers</h3>
+					<p>Data from FiveThirtyEight.com:</p>
+					<p>"...using three types of historic data that could indicate where America’s worst drivers are: The number of car crashes in each state (especially those where the driver was negligent in some way), how much insurance companies pay out, and how much insurance companies charge drivers. All three measures vary a lot across the country and no state is consistently at the bottom, but drivers in Texas don’t do very well on any of them. By contrast, drivers in Iowa, Indiana and Vermont are pretty good across the board."</p>
+				</div>
+			</div>
+			<div class="flex-row">
+				<div class="flex-item">
+					<div class="line_chart display">
+						<div id="premiums_chart"></div>
+						<p class="source">Source: <a href="http://fivethirtyeight.com/datalab/which-state-has-the-worst-drivers" target="_blank">FiveThirtyEight.com</a> &amp; National Association of Insurance Commissioners, 2011</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="../scripts/lib/jquery/jquery.min.js"></script>
+		<script src="../scripts/lib/d3.min.js"></script>
+		<script src="scripts/poc-bad-drivers.js"></script>
+	</body>
+</html>

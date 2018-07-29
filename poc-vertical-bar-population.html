@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Interfaces - D3</title>
+		<link href="css/base.css" rel="stylesheet" />
+		<link href="css/poc-vertical-bar-population.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<div class="flex-container" data-width="60">
+            <div class="flex-row">
+                <div class="flex-item">
+					<h3>Vertical Bar Chart - State Population</h3>
+                    <p>This bar chart is a variation of the horizontal bar chart. It shows state population in a vertical format. The user can hover over any bar to see the exact population total, as well as sort the chart with the buttons at the top. This chart is using old census data.</p>
+                    <p>US Population by state, source: US Census. Hover over a bar to see the state's poulation.</p>
+
+                    <button type="button" class="btn btn-default" data-sort="desc">Sort Numerical Descending</button>
+                    <button type="button" class="btn btn-default" data-sort="asc">Sort Numerical Ascending</button>
+                    <button type="button" class="btn btn-default" data-sort="alpha_asc">Sort Alpha Ascending</button>
+                    <button type="button" class="btn btn-default" data-sort="alpha_desc">Sort Alpha Descending</button>
+				</div>
+			</div>
+			<div class="flex-row">
+                <div class="flex-item">
+					<div class="unemployment display">
+	                    <div id="chart"></div>
+	                    <p class="source">Source: <a href="javascript:void(0)" target="_blank">Fake data</a></p>
+	                </div>
+				</div>
+			</div>
+		</div>
+
+		<script src="../scripts/lib/jquery/jquery.min.js"></script>
+		<script src="../scripts/lib/d3.min.js"></script>
+		<script src="../scripts/lib/underscore-min.js"></script>
+        <script src="../scripts/underscore_mixins.js"></script>
+		<script src="scripts/base-bar.js"></script>
+		<script src="scripts/poc-vertical-bar-population.js"></script>
+	</body>
+</html>

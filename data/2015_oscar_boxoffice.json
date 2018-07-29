@@ -1,0 +1,442 @@
+[
+    {
+        "title": "The Imitation Game",
+        "grosses": [
+            {
+                "week": "1",
+                "date": "04-Dec-14",
+                "average": 611199
+            },
+            {
+                "week": 2,
+                "date": "11-Dec-14",
+                "average": 513186
+            },
+            {
+                "week": 3,
+                "date": "18-Dec-14",
+                "average": 1172576
+            },
+            {
+                "week": 4,
+                "date": "25-Dec-14",
+                "average": 4404693
+            },
+            {
+                "week": 5,
+                "date": "01-Jan-15",
+                "average": 15997909
+            },
+            {
+                "week": 6,
+                "date": "08-Jan-15",
+                "average": 10516876
+            },
+            {
+                "week": 7,
+                "date": "15-Jan-15",
+                "average": 10389869
+            },
+            {
+                "week": 8,
+                "date": "22-Jan-15",
+                "average": 9899973
+            },
+            {
+                "week": 9,
+                "date": "29-Jan-15",
+                "average": 9275355
+            },
+            {
+                "week": 10,
+                "date": "05-Feb-15",
+                "average": 7077151
+            }
+        ]
+    },
+    {
+        "title": "American Sniper",
+        "grosses": [
+            {
+                "week": 1,
+                "date": "01-Jan-15",
+                "average": 1312168
+            },
+            {
+                "week": 2,
+                "date": "08-Jan-15",
+                "average": 1042772
+            },
+            {
+                "week": 3,
+                "date": "15-Jan-15",
+                "average": 829627
+            },
+            {
+                "week": 4,
+                "date": "22-Jan-15",
+                "average": 132347335
+            },
+            {
+                "week": 5,
+                "date": "29-Jan-15",
+                "average": 81319900
+            },
+            {
+                "week": 6,
+                "date": "05-Feb-15",
+                "average": 41008226
+            },
+            {
+                "week": 7,
+                "date": "12-Feb-15",
+                "average": 29598054
+            },
+            {
+                "week": 8,
+                "date": "19-Feb-15",
+                "average": 22258885
+            },
+            {
+                "week": 9,
+                "date": "26-Feb-15",
+                "average": 13451269
+            },
+            {
+                "week": 10,
+                "date": "05-Mar-15",
+                "average": 9290532
+            }
+        ]
+    },
+    {
+        "title": "Birdman",
+        "grosses": [
+            {
+                "week": "1",
+                "date": "23-Oct-14",
+                "average": 630441
+            },
+            {
+                "week": 2,
+                "date": "30-Oct-14",
+                "average": 1863817
+            },
+            {
+                "week": 3,
+                "date": "06-Nov-14",
+                "average": 3291994
+            },
+            {
+                "week": 4,
+                "date": "13-Nov-14",
+                "average": 3339115
+            },
+            {
+                "week": 5,
+                "date": "20-Nov-14",
+                "average": 3426740
+            },
+            {
+                "week": 6,
+                "date": "27-Nov-14",
+                "average": 2793950
+            },
+            {
+                "week": 7,
+                "date": "04-Dec-14",
+                "average": 2423438
+            },
+            {
+                "week": 8,
+                "date": "11-Dec-14",
+                "average": 1699712
+            },
+            {
+                "week": 9,
+                "date": "18-Dec-14",
+                "average": 1869840
+            },
+            {
+                "week": 10,
+                "date": "25-Dec-14",
+                "average": 1602388
+            }
+        ]
+    },
+    {
+        "title": "Selma",
+        "grosses": [
+            {
+                "week": 1,
+                "date": "01-Jan-15",
+                "average": 1113104
+            },
+            {
+                "week": 2,
+                "date": "08-Jan-15",
+                "average": 851669
+            },
+            {
+                "week": 3,
+                "date": "15-Jan-15",
+                "average": 15377081
+            },
+            {
+                "week": 4,
+                "date": "22-Jan-15",
+                "average": 16055744
+            },
+            {
+                "week": 5,
+                "date": "29-Jan-15",
+                "average": 7188153
+            },
+            {
+                "week": 6,
+                "date": "05-Feb-15",
+                "average": 3824057
+            },
+            {
+                "week": 7,
+                "date": "12-Feb-15",
+                "average": 2532207
+            },
+            {
+                "week": 8,
+                "date": "19-Feb-15",
+                "average": 1663705
+            },
+            {
+                "week": 9,
+                "date": "26-Feb-15",
+                "average": 1029813
+            },
+            {
+                "week": 10,
+                "date": "05-Mar-15",
+                "average": 635796
+            }
+        ]
+    },
+    {
+        "title": "The Theory of Everything",
+        "grosses": [
+            {
+                "week": 1,
+                "date": "13-Nov-14",
+                "average": 295472
+            },
+            {
+                "week": 2,
+                "date": "20-Nov-14",
+                "average": 1000705
+            },
+            {
+                "week": 3,
+                "date": "27-Nov-14",
+                "average": 3222886
+            },
+            {
+                "week": 4,
+                "date": "04-Dec-14",
+                "average": 6426371
+            },
+            {
+                "week": 5,
+                "date": "11-Dec-14",
+                "average": 3677749
+            },
+            {
+                "week": 6,
+                "date": "18-Dec-14",
+                "average": 3609390
+            },
+            {
+                "week": 7,
+                "date": "25-Dec-14",
+                "average": 2921122
+            },
+            {
+                "week": 8,
+                "date": "01-Jan-15",
+                "average": 2512324
+            },
+            {
+                "week": 9,
+                "date": "08-Jan-15",
+                "average": 1555009
+            },
+            {
+                "week": 10,
+                "date": "15-Jan-15",
+                "average": 1096918
+            }
+        ]
+    },
+    {
+        "title": "Boyhood",
+        "grosses": [
+            {
+                "week": 1,
+                "date": "17-Jul-14",
+                "average": 615167
+            },
+            {
+                "week": 2,
+                "date": "24-Jul-14",
+                "average": 1785641
+            },
+            {
+                "week": 3,
+                "date": "31-Jul-14",
+                "average": 2642572
+            },
+            {
+                "week": 4,
+                "date": "07-Aug-14",
+                "average": 3520007
+            },
+            {
+                "week": 5,
+                "date": "14-Aug-14",
+                "average": 3087075
+            },
+            {
+                "week": 6,
+                "date": "21-Aug-14",
+                "average": 3011586
+            },
+            {
+                "week": 7,
+                "date": "28-Aug-14",
+                "average": 2338473
+            },
+            {
+                "week": 8,
+                "date": "04-Sep-14",
+                "average": 2321256
+            },
+            {
+                "week": 9,
+                "date": "11-Sep-14",
+                "average": 1621674
+            },
+            {
+                "week": 10,
+                "date": "18-Sep-14",
+                "average": 1210465
+            }
+        ]
+    },
+    {
+        "title": "The Grand Budapest Hotel",
+        "grosses": [
+            {
+                "week": 1,
+                "date": "13-Mar-14",
+                "average": 1138940
+            },
+            {
+                "week": 2,
+                "date": "20-Mar-14",
+                "average": 5071579
+            },
+            {
+                "week": 3,
+                "date": "27-Mar-14",
+                "average": 9421296
+            },
+            {
+                "week": 4,
+                "date": "03-Apr-14",
+                "average": 11448612
+            },
+            {
+                "week": 5,
+                "date": "10-Apr-14",
+                "average": 8339128
+            },
+            {
+                "week": 6,
+                "date": "17-Apr-14",
+                "average": 6129846
+            },
+            {
+                "week": 7,
+                "date": "24-Apr-14",
+                "average": 4794580
+            },
+            {
+                "week": 8,
+                "date": "01-May-14",
+                "average": 3427451
+            },
+            {
+                "week": 9,
+                "date": "08-May-14",
+                "average": 2509696
+            },
+            {
+                "week": 10,
+                "date": "15-May-14",
+                "average": 2155678
+            }
+        ]
+    },
+    {
+        "title": "Whiplash",
+        "grosses": [
+            {
+                "week": 1,
+                "date": "16-Oct-14",
+                "average": 205427
+            },
+            {
+                "week": 2,
+                "date": "23-Oct-14",
+                "average": 276646
+            },
+            {
+                "week": 3,
+                "date": "30-Oct-14",
+                "average": 353693
+            },
+            {
+                "week": 4,
+                "date": "06-Nov-14",
+                "average": 374474
+            },
+            {
+                "week": 5,
+                "date": "13-Nov-14",
+                "average": 471508
+            },
+            {
+                "week": 6,
+                "date": "20-Nov-14",
+                "average": 1014314
+            },
+            {
+                "week": 7,
+                "date": "27-Nov-14",
+                "average": 772356
+            },
+            {
+                "week": 8,
+                "date": "04-Dec-14",
+                "average": 595313
+            },
+            {
+                "week": 9,
+                "date": "11-Dec-14",
+                "average": 447780
+            },
+            {
+                "week": 10,
+                "date": "18-Dec-14",
+                "average": 379230
+            }
+        ]
+    }
+]

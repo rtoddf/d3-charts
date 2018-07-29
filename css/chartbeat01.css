@@ -1,0 +1,61 @@
+#chart {
+	font-size: 14px;
+}
+
+.legend {
+	margin: 20px 0;
+}
+
+.box {
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	margin-right: 10px;
+	border: 1px solid #666;
+}
+
+.box.news965 {
+	background-color: #a62228;
+}
+
+.box.wsbradio {
+	background-color: #001292;
+}
+
+.box.krmg {
+	background-color: #0061a1;
+}
+
+.box.wokv {
+	background-color: #666;
+}
+
+.box.whio {
+	background-color: #31a354;
+}
+
+.news965 {
+	fill: #a62228;
+	opacity: .7;
+}
+
+.wsbradio {
+	fill: #001292;
+	opacity: .7;
+}
+
+.krmg {
+	fill: #0061a1;
+	opacity: .7;
+}
+
+.wokv {
+	fill: #666;
+	opacity: .7;
+}
+
+.whio {
+	fill: #31a354;
+	opacity: .7;
+}
+

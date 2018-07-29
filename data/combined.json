@@ -1,0 +1,53 @@
+[
+    {
+        "program": "Suits",
+        "browse": [
+            {"date": "20-Feb-15", "count": 60},
+            {"date": "19-Feb-15", "count": 58},
+            {"date": "18-Feb-15", "count": 48},
+            {"date": "17-Feb-15", "count": 44},
+            {"date": "16-Feb-15", "count": 40},
+            {"date": "15-Feb-15", "count": 30},
+            {"date": "14-Feb-15", "count": 28},
+            {"date": "13-Feb-15", "count": 28},
+            {"date": "12-Feb-15", "count": 24},
+            {"date": "11-Feb-15", "count": 14}
+        ],
+        "search": [
+            {"date": "20-Feb-15", "count": 60},
+            {"date": "19-Feb-15", "count": 48},
+            {"date": "18-Feb-15", "count": 38},
+            {"date": "17-Feb-15", "count": 34},
+            {"date": "16-Feb-15", "count": 12},
+            {"date": "15-Feb-15", "count": 12},
+            {"date": "14-Feb-15", "count": 18},
+            {"date": "13-Feb-15", "count": 12},
+            {"date": "12-Feb-15", "count": 4},
+            {"date": "11-Feb-15", "count": 2}
+        ],
+        "add": [
+            {"date": "20-Feb-15", "count": 60},
+            {"date": "19-Feb-15", "count": 43},
+            {"date": "18-Feb-15", "count": 28},
+            {"date": "17-Feb-15", "count": 24},
+            {"date": "16-Feb-15", "count": 40},
+            {"date": "15-Feb-15", "count": 40},
+            {"date": "14-Feb-15", "count": 38},
+            {"date": "13-Feb-15", "count": 8},
+            {"date": "12-Feb-15", "count": 4},
+            {"date": "11-Feb-15", "count": 0}
+        ],
+        "watch": [
+            {"date": "20-Feb-15", "count": 60},
+            {"date": "19-Feb-15", "count": 60},
+            {"date": "18-Feb-15", "count": 50},
+            {"date": "17-Feb-15", "count": 44},
+            {"date": "16-Feb-15", "count": 42},
+            {"date": "15-Feb-15", "count": 40},
+            {"date": "14-Feb-15", "count": 38},
+            {"date": "13-Feb-15", "count": 30},
+            {"date": "12-Feb-15", "count": 24},
+            {"date": "11-Feb-15", "count": 20}
+        ]
+    }
+]

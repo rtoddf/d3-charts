@@ -1,0 +1,58 @@
+{
+	"planets": [
+		{
+			"name": "Mercury",
+			"distance": "35980000",
+			"diameter": "3032",
+			"density": "5427"
+		},
+		{
+			"name": "Venus",
+			"distance": "67240000",
+			"diameter": "7521",
+			"density": "5243"
+		},
+		{
+			"name": "Earth",
+			"distance": "92960000",
+			"diameter": "7926",
+			"density": "5515"
+		},
+		{
+			"name": "Mars",
+			"distance": "141600000",
+			"diameter": "4222",
+			"density": "3933"
+		},
+		{
+			"name": "Jupiter",
+			"distance": "483632000",
+			"diameter": "88846",
+			"density": "1326"
+		},
+		{
+			"name": "Saturn",
+			"distance": "888188000",
+			"diameter": "74898",
+			"density": "687"
+		},
+		{
+			"name": "Uranus",
+			"distance": "1783950000",
+			"diameter": "31763",
+			"density": "1270"
+		},
+		{
+			"name": "Neptune",
+			"distance": "2798842000",
+			"diameter": "30778",
+			"density": "163"
+		},
+		{
+			"name": "Pluto",
+			"distance": "3670000000",
+			"diameter": "1485",
+			"density": "1750"
+		}
+	]
+}

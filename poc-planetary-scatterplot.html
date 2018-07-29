@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Interfaces - D3</title>
+        <link href="css/base.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <div class="flex-container">
+            <div class="flex-row">
+                <div class="flex-item">
+                    <h3>Planetary Scatterplot</h3>
+                    <p>This visualization shows the planets of our solar system as a scatterplot. The chart presents each planet's distance from the sun, density, and size in relation to the other planets. More data can be added to the tooltip or added as a animatable field on the chart.</p>
+                    <p>The x-axis is the planet's distance from the sun (miles). The y-axis is the planet's density (kg pr. cubic meter). The radius of each circle is its radius in relation to the other planets.</p>
+                    <p>Hover over the circle to see the planet's name. I know Pluto isn't considered a planet any more, but it felt lonely being left out.</p>
+
+                    <div class="display">
+                        <div id="chart"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="../scripts/lib/jquery/jquery.min.js"></script>
+        <script src="../scripts/lib/d3.min.js"></script>
+        <script src="scripts/poc-planetary-scatterplot.js"></script>
+    </body>
+</html>
