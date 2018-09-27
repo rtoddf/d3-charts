@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Interfaces - D3/Animated Donut with Percentage</title>
+        <link href="css/base.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <div class="flex-container">
+            <div class="flex-row">
+                <div class="flex-item" data-width="2">
+                    <h3>Population Pie Chart - HI</h3>
+                    <p>This donut chart shows the US Census 2010 data for Hawaii. The user can hover over each arc, which will animate, and see a tooltip with race. The percentage is also presented in the center of the chart. More data can be added to the tooltip and the center of the chart.</p>
+                    <p>Static population data from the US Census 2010 (Hawaii). Hover over an arc to see the percentage and race.</p>
+
+                    <div class="pie display">
+                        <div id="chart"></div>
+                        <p class="source">Source: <a href="http://developer.usatoday.com/docs/read/Census" target="_blank">USA Today Census API for 2010</a></p>
+                    </div>
+                </div>
+                <div class="flex-item"></div>
+            </div>
+        </div>
+
+        <script src="scripts/jquery/jquery.min.js"></script>
+        <!-- there's sonething in this version of the script that has padradius that a newer doesn't have -->
+        <script src="scripts/d3.min.js"></script>
+        <script src="scripts/base-pie.js"></script>
+        <script src="scripts/poc-pie-population-hi.js"></script>
+    </body>
+</html>
