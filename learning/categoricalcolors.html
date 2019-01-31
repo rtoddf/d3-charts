@@ -5,14 +5,17 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Interfaces - D3</title>
-        <link href="css/base.css" rel="stylesheet" />
+        <link href="../../css/layouts.css" rel="stylesheet" />
+        <link href="../../css/displays.css" rel="stylesheet" />
     </head>
 
-    <body>
-        <div class="flex-container">
-            <div class="flex-row">
-                <div class="flex-item">
-                    <h3>Categorical Colors</h3>
+    <body data-theme="home">
+        <div class="container">
+            <header>
+                <h2>Categorical Colors</h2>
+            </header>
+            <div class="grid" data-col="2">
+                <article>
                     <p>d3 category10</p>
                     <div id="c10"></div>
 
@@ -30,12 +33,12 @@
 
                     <p>google 20c</p>
                     <div id="g20c"></div>
-                </div>
+                </article>
             </div>
         </div>
 
-        <script src="../scripts/lib/jquery/jquery.min.js"></script>
-        <script src="../scripts/lib/d3.min.js"></script>
-        <script src="scripts/d3-categoricalcolors.js"></script>
+        <script src="../../scripts/lib/jquery/jquery.min.js"></script>
+        <script src="../../scripts/lib/d3.min.js"></script>
+        <script src="../scripts/d3-categoricalcolors.js"></script>
     </body>
 </html>

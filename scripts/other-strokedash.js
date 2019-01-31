@@ -61,7 +61,7 @@ var points = [
 		})
 		.style({
 			'fill': 'none',
-			'stroke': 'rgba(0,50,100,.25)',
+			'stroke': 'rgba(200,200,200,.25)',
 			'stroke-width': 3
 		})
 
@@ -71,7 +71,7 @@ var points = [
 		})
 		.style({
 			'fill': 'none',
-			'stroke': 'rgba(0,50,100,1)',
+			'stroke': 'rgba(255,255,255,1)',
 			'stroke-width': 3
 		})
 		.call(transition)
