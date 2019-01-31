@@ -11,8 +11,8 @@
 		secondHandStroke = 1,
 		minuteHandStroke = 2,
 		hourHandStroke = 3,
-		clockStrokeColor = 'rgba(0,50,100,1)',
-		clockBackgroundColor = 'rgba(0,50,100,.25)'
+		clockStrokeColor = 'rgba(255,255,255,1)',
+		clockBackgroundColor = 'rgba(255,255,255,.25)'
 
 	var inner_radius = 0,
 		clock_radius = (height / 2) - 10,

@@ -249,7 +249,8 @@ div[data-layout="column"] {
 }
 
 /* trig styles */
-#animated_trig .circle, #animated_trig .wave {
+#animated_trig .circle,
+#animated_trig .wave {
     fill: none;
     stroke: steelblue;
     stroke-width: 1.5px;
@@ -280,7 +281,7 @@ div[data-layout="column"] {
 }
 
 #animated_trig .filler {
-    fill: white;
+    fill: none;
 }
 
 /*-----------------------------------------------------------------------------------*\

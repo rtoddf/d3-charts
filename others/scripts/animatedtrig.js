@@ -77,6 +77,7 @@ aspect = chart_container.width() / chart_container.height();
 				.enter().append('path')
 			.attr({
 				'class': 'line',
+				'fill': 'none',
 				'transform': function(d, i){
 					return 'translate(' + (x((i - .5) * Math.PI + interval) - x(0)) + ', 0)'
 				},
@@ -87,6 +88,10 @@ aspect = chart_container.width() / chart_container.height();
 					.y(function(d){
 						return y(d)
 					})
+			})
+			.style({
+				'stroke': 'rgba(0,0,0,.75)',
+				'stroke-width': 1.5
 			})
 
 	var filler = function(width, height){
