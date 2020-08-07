@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Interfaces - D3</title>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="container">
+            <ul>
+              <li>Position of element is set in pixel. But input dataset is not.</li>
+              <li>We thus need a function that translates a numeric variable to a poistion in pixes. It is called scale.</li>
+              <li>If my data are percentages, and my svg area is 400px width, 0% -> 0px, 100% -> 400px, 50% -> 200px.</li>
+              <li>Scale always gas a domain (0 to 100% here) and a range (0 to 400px here).</li>
+              <li>Usually the scale for the X axis is called x. If you run x(10), d3 returns the position in px for this value.</li>
+            </ul>
+
+            <svg id="dataviz_area" height=200 width=450></svg>
+        </div>
+    </body>
+    <script src="https://d3js.org/d3.v5.js"></script>
+    <script src="https://d3js.org/d3-selection-multi.v1.min.js"></script>
+
+    <script>
+      var svg = d3.select("#dataviz_area")
+
+      // create a scale: transform value in pixel
+      var x = d3.scaleLinear()
+        .domain([0, 100])
+        .range([0, 400])
+
+      var y = d3.scaleLinear()
+        .domain([0, 100])
+        .range([0, 250])
+
+      console.log(x(25))
+
+      svg.append("circle")
+        .attrs({
+          "cx": x(10),
+          "cy": y(40),
+          "r": 40
+        })
+        .styles({
+          "fill": "orange"
+        })
+      svg.append("circle")
+        .attrs({
+          "cx": x(50),
+          "cy": y(40),
+          "r": 40
+        })
+        .styles({
+          "fill": "purple"
+        })
+      svg.append("circle")
+        .attrs({
+          "cx": x(100),
+          "cy": y(40),
+          "r": 40
+        })
+        .styles({
+          "fill": "#ae0000"
+        })
+    </script>
+</html>

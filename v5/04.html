@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Interfaces - D3</title>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="container">
+          <h3>Add axis</h3>
+          <ul>
+            <li>D3 offers a few functions to draw axis automatically.</li>
+            <li>These axis are always from on top od a scale. This scale specifies where the axis must be placed, and what range it should indicate. </li>
+            <li>The function axisBottom() creates a horizontal axis, with ticks and labels at the botton. axisLeft() will be used later.</li>
+          </ul>
+          <h3>Margin &amp; Translation</h3>
+          <ul>
+            <li>The axis position needs to be adjusted. For instance, the X axis is usually placed at the bottom.</li>
+            <li>This is made possible thanks to translation. Basically, applying .attr("transform", "translate(20, 50)") to an element will translate it to the right and 50px to the bottom.</li>
+            <li>A very common strategy is to apply a translation to the general svg area, creating a bit of margin around the chart without having to think about it in the rest of the code. It is important to understand how it works since almost all d3.js charts start that way.</li>
+          </ul>
+          <div id="dataviz_area"></div>
+        </div>
+    </body>
+    <script src="https://d3js.org/d3.v5.js"></script>
+    <script src="https://d3js.org/d3-selection-multi.v1.min.js"></script>
+
+    <script>
+      var box = document.querySelector("#dataviz_area")
+
+      var margins = {top: 10, right: 40, bottom: 30, left: 30},
+        width = (box.clientWidth * .5) - margins.left - margins.right,
+        height = (width * .5) - margins.top - margins.bottom
+
+      var svg = d3.select("#dataviz_area")
+        .append("svg")
+          .attrs({
+            "width": width + margins.left + margins.right,
+            "height": height + margins.top + margins.bottom,
+            'class': 'chart',
+            'preserveAspectRatio': 'xMinYMid',
+            'viewBox': '0 0 ' + (width + margins.left + margins.right) + ' ' + (height + margins.top + margins.bottom)
+          })
+          .append("g")
+            .attrs({
+              "transform": "translate(" + margins.left + ", " + margins.top + ")"
+            })
+
+      // create a scale: transform value in pixel
+      var x = d3.scaleLinear()
+        .domain([0, 100])
+        .range([0, width])
+
+      var y = d3.scaleLinear()
+        .domain([0, 100])
+        .range([height, 0])
+
+      // show the axis that corresponds to this scale
+      svg
+        .append("g")
+        .attrs({
+          "transform": "translate(0, " + height + ")"
+        })
+        .call(d3.axisBottom(x))
+
+      svg
+        .append("g")
+        .call(d3.axisLeft(y))
+
+      svg.append("circle")
+        .attrs({
+          "cx": x(10),
+          "cy": y(40),
+          "r": 40
+        })
+        .styles({
+          "fill": "orange"
+        })
+      svg.append("circle")
+        .attrs({
+          "cx": x(50),
+          "cy": y(40),
+          "r": 40
+        })
+        .styles({
+          "fill": "purple"
+        })
+      svg.append("circle")
+        .attrs({
+          "cx": x(100),
+          "cy": y(40),
+          "r": 40
+        })
+        .styles({
+          "fill": "#ae0000"
+        })
+    </script>
+</html>

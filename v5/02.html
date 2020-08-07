@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Interfaces - D3</title>
+        <!-- <link href="../../../css/layouts.css" rel="stylesheet" />
+        <link href="../../../css/displays.css" rel="stylesheet" /> -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="container">
+            <svg id="dataviz_area" height=200 width=450></svg>
+        </div>
+    </body>
+    <script src="https://d3js.org/d3.v5.js"></script>
+    <script src="https://d3js.org/d3-selection-multi.v1.min.js"></script>
+
+    <script>
+      var svg = d3.select("#dataviz_area")
+      svg.append("circle")
+        .attrs({
+          "cx": 2,
+          "cy": 2,
+          "r": 40
+        })
+        .styles({
+          "fill": "orange"
+        })
+      svg.append("circle")
+        .attrs({
+          "cx": 140,
+          "cy": 70,
+          "r": 40
+        })
+        .styles({
+          "fill": "purple"
+        })
+      svg.append("circle")
+        .attrs({
+          "cx": 300,
+          "cy": 100,
+          "r": 40
+        })
+        .styles({
+          "fill": "#ae0000"
+        })
+    </script>
+</html>

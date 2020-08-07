@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Interfaces - D3</title>
+        <!-- <link href="../../../css/layouts.css" rel="stylesheet" />
+        <link href="../../../css/displays.css" rel="stylesheet" /> -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>first html document</h1>
+
+            <svg>
+              <!-- circle -->
+              <circle class="target" style="fill: #69b3a2" stroke="black" cx=50 cy=50 r=40></circle>
+              <!-- line -->
+              <line x1="0" y1="0" x2="100" y2="100" stroke="black"></line>
+              <!-- ellipse -->
+              <ellipse cx="100" cy="50" rx="100" ry="10" fill="orange"></ellipse>
+            </svg>
+        </div>
+    </body>
+    <script src="https://d3js.org/d3.v5.js"></script>
+
+    <script>
+      d3
+        .select(".target") // select the items that have the class 'target'
+        .style("stroke-width", 8) // change their style
+        .style("opacity", .5)
+    </script>
+</html>
