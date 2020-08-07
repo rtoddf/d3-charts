@@ -1,0 +1,3 @@
+https://wattenberger.com/blog/react-and-d3
+https://levelup.gitconnected.com/combining-d3-js-with-react-1c15c41429a6
+https://reactjsexample.com/a-starter-kit-for-modern-react-and-d3-js/
