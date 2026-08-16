@@ -1,0 +1,90 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    color: #222;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 20px;
+}
+
+p {
+    padding: 0 0 10px;
+}
+
+a {
+    color: #222;
+    transition: color .3s ease;
+}
+
+a:hover {
+    color: #666;
+    text-decoration: none;
+}
+
+ul {
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+ul li {
+    
+    border: 1px solid #222;
+    border-bottom: none;
+}
+
+ul li:last-child {
+    border-bottom: 1px solid #222;
+}
+
+ul li a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+ul li a:hover {
+    background: #222;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+/* flexbox */
+.flex-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flex-row {
+    display: flex;
+}
+
+@media (max-width: 480px) {
+    .flex-row {
+        flex-direction: column;
+    }
+}
+
+.flex-item {
+    flex: 1 1 0;
+    position: relative;
+    margin: 20px 0 20px 20px;
+}
+
+.flex-row[data-margin="0"] .flex-item,
+.flex-row[data-margin="0"] .flex-item:last-child {
+    margin: 0;
+}

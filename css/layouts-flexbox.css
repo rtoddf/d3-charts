@@ -1,0 +1,753 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+	color:#fff;
+	background-color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-bottom: 20px;
+}
+
+h2 i.fa {
+	font-size: 12px;
+}
+
+p {
+	padding: 0 0 10px;
+}
+
+/* 
+a {
+	color: #222;
+	transition: color .3s ease;
+}
+
+a:hover {
+	color: #666;
+	text-decoration: none;
+} */
+
+ul {
+	margin-bottom: 20px;
+	list-style: none;
+}
+
+ul li {
+	
+	border: 1px solid #222;
+	border-bottom: none;
+}
+
+ul li:last-child {
+	border-bottom: 1px solid #222;
+}
+
+ul li a {
+	display: block;
+	padding: 5px;
+	text-decoration: none;
+	transition: all .3s ease;
+}
+
+/* ul li a:hover {
+	background: #222;
+	color: #fff;
+	text-decoration: none;
+} */
+
+.module {
+	width: 94%;
+	margin: 50px auto 30px;
+}
+
+.intro {
+	max-width: 750px;
+	margin: 0 auto;
+	padding-bottom: 30px !important;
+	text-align: center;
+}
+
+.home .row {
+	margin: 0;
+}
+
+.home div[class*=col-] {
+	padding: 0;
+	background: transparent;
+}
+
+.navbar {
+    margin-bottom: 0;
+    box-shadow: 1px 0 2px #000;
+    border-radius: 0;
+}
+
+.navbar .module {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.navbar.navbar-inverse {
+	background-color: rgba(43,33,32,.5)
+}
+
+.source {
+	margin-bottom: 10px;
+	color: #666;
+    font-size: 12px;
+    font-style: italic;
+    text-align: right;
+}
+
+.note {
+    font-size: 12px;
+    font-style: italic;
+}
+
+/* tiles */
+.tile {
+	position: relative;
+	/* margin-left: 2px;
+	margin-bottom: 2px; */
+	/* border: 1px solid rgba(236,124,74,.5); */
+	overflow: hidden;
+}
+
+.tile a {
+    color: #fff;
+}
+
+.tile .art {
+	position: relative;
+}
+
+.tile .cap {
+    padding: 5px 10px;
+    font-size: 18px;
+}
+
+.tile .info {
+	position: absolute;
+	width: 101%;
+	left: 50%;
+	bottom: 0;
+	transform: translateX(-50%);
+    padding: 40px 30px 20px;
+    font-size: 16px;
+    background-image: linear-gradient(transparent, rgba(43,33,32,.6) 60%, rgba(43,33,32,1) 100%);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.tile .info h3 {
+	letter-spacing: 3px;
+}
+
+.tile footer p {
+	padding: 10px 0;
+	color: #594828;
+	font-size: 12px;
+}
+
+.tile.small .top {
+	background: #f0e9cd;
+}
+.tile.small .top img {
+	float: left;
+}
+.tile.small .top .info {
+	float: right;
+}
+.tile.small .top .info {
+	float: right;
+}
+.tile.small .bottom {
+	background: #f0e9cd;
+}
+
+.tile.small .bottom img {
+	float: right;
+}
+.tile.small  img {
+	width: 50%;
+}
+
+.tile.small .info {
+	position: relative;
+	width: 50%;
+	left: 25%;
+	padding-top: 10px;
+	background: transparent;
+	color: #2b2120;
+}
+.tile.small .info a {
+	color: #2b2120;
+}
+
+img {
+	width: 100%;
+}
+
+.capitalize {
+	text-transform: capitalize;
+}
+
+/* Prevent the text contents of draggable elements from being selectable. */
+[draggable]{
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	/* Required to make elements draggable in old WebKit */
+	-khtml-user-drag: element;
+	-webkit-user-drag: element;
+}
+
+.column {
+	width: 280px;
+	float: left;
+	border: 1px solid #666;
+	background-color: rgba(0,0,0,.1);
+	margin: 5px 5px 5px 0;
+	-webkit-box-shadow: inset 0 0 3px #000;
+	-ms-box-shadow: inset 0 0 3px #000;
+	box-shadow: inset 0 0 3px #000;
+	cursor: move;
+}
+
+.column .content {
+	padding: 10px;
+}
+
+.column .treatment {
+	box-shadow: none;
+	border: 1px solid rgba(0,0,0,.5);
+	margin-bottom: 5px
+}
+
+.column header {
+	text-align: center;
+	text-shadow: #000 0 1px;
+	box-shadow: 5px;
+	padding: 5px;
+	background: #444
+}
+
+.column.over {
+	border: 2px dashed #999;
+}
+
+.clear {
+	clear: both;
+}
+
+#map {
+	width: 100%;
+	height: 600px;
+}
+
+.country {
+	text-transform: capitalize
+}
+
+@media (min-width: 978px) and (max-width: 1200px) {
+	.column {
+		width: 225px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+	.column {
+		width: 170px;
+	}
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+	.column {
+		width: 130px;
+	}
+}
+
+@media (max-width: 599px) {
+	.column {
+		width: 100%;
+		float: none;
+	}
+}
+
+/* flexbox */
+.flex-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flex-container.first {
+	margin-top: 100px;
+}
+
+.flex-row {
+	display: flex;
+	margin-bottom: 40px;
+}
+
+@media (max-width: 480px) {
+	.flex-row {
+	    flex-direction: column;
+	}
+}
+
+.flex-item {
+    flex: 1 1 0;
+    position: relative;
+    padding: 0 20px;
+}
+
+div[data-layout="column"] {
+    display: flex;
+    flex-direction: column;
+}
+
+div[data-layout="column"]>div {
+    flex: 1 1 0;
+    position: relative;
+    padding: 0 20px;
+}
+
+/* all evenly distributed cols */
+/* .flex-row .flex-item {
+    flex: 1 1 0;
+    position: relative;
+    margin: 20px 0 20px 20px;
+}
+
+.flex-row .flex-item:last-child {
+    margin-right: 20px;
+} */
+
+.flex-item .flex-row .flex-item {
+    margin-top: 0;
+}
+
+
+.flex-item[data-weight="2"]{
+    flex: 2 2 40px;
+}
+
+.flex-item[data-weight="3"]{
+    flex: 3 3 40px;
+}
+
+.flex-item[data-weight="4"]{
+    flex: 4 4 40px;
+}
+
+/* centered images */
+[data-image-layout="square"]:after {
+    content: "";
+    float: left;
+    display: block;
+    padding-top: 100%;
+}
+
+.tile {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.tile .image-holder {
+    height: 100%;
+}
+
+.tile .image-holder img {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+	transition: all .6s ease;
+	border: none;
+}
+
+.tile .image-holder img:hover {
+    width: 110%;
+    height: 110%;
+    max-width: 110%;
+    max-height: 110%;
+    margin: -5%;
+}
+
+/* moving to this*/
+.tile figure {
+    height: 100%;
+}
+
+.tile figure img {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+	transition: all .6s ease;
+	border: none;
+}
+
+.tile figure img:hover {
+    width: 110%;
+    height: 110%;
+    max-width: 110%;
+    max-height: 110%;
+    margin: -5%;
+}
+
+
+/* The first column takes up the same amount of space as the other two. That's because the values add up to 4, so the first column is:
+2 ÷ (2 + 1 + 1) = ½
+The other two are:
+1 ÷ (2 + 1 + 1) = ¼
+The first and second columns in the second row have 22 pixels between them
+(20 pixels for the gutter and 2 pixels for the borders).
+We can add this missing space to the first column in the first row by setting
+flex-basis to 22px. */
+
+
+/* Three values: flex-grow | flex-shrink | flex-basis */
+
+/* The flex-grow CSS property specifies the flex grow factor of a flex item.
+It specifies what amount of space inside the flex container the item should take up.
+flex-grow is a number - initial value - 0
+The flex-shrink CSS property specifies the flex shrink factor of a flex item.
+flex-grow is a number - initial value - 1 */
+
+
+
+/* width: 30px; */
+/* To make the transition work nicely. (Transitions to/from
+                // "width:auto" are buggy in Gecko and Webkit, at least.
+                // See http://bugzil.la/731886 for more info.) */
+/* transition: width 0.7s ease-out; */
+
+/* body {
+    margin-top: 50px;
+	background: #f7f7f7;
+}
+
+h1 {
+    line-height: 36px;
+    font-family: 'Merriweather', serif;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+h4 {
+	margin-bottom: 0;
+} */
+
+.flex-container.background-color {
+    padding: 5px 0 30px;
+    background: #222;
+}
+
+.section-page .image-holder {
+	margin-left: -20px;
+	margin-right: -20px;
+}
+
+.section-page .image-holder .filler {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    max-height: 100%;
+    padding-bottom: 56%;
+    overflow: hidden;
+    background: #222;
+}
+
+.section-page .flex-item .image-holder img {
+    display: block;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    width: auto;
+    max-width: 100%;
+    height: 100%;
+    max-height: 100%;
+    -webkit-transform: translate(-50%, -25%);
+    -ms-transform: translate(-50%, -25%);
+    transform: translate(-50%, -25%);
+    text-align: center;
+}
+
+/* .strip .flex-item[data-image-layout="square"] .tile {
+	display: block;
+	overflow: visible;
+}
+
+.strip .flex-item[data-image-layout="square"] .image-holder img:hover {
+	width: 100%; 
+	height: 100%; 
+	max-width: 100%; 
+	max-height: 100%; 
+	margin: 0;
+	cursor: auto;
+} */
+
+.section-page .tag .image-holder {
+    margin: 0;
+}
+
+.content-holder {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* height: 35%; */
+    background: rgba(0,0,0,.5);
+    border-top: 1px solid rgba(255,255,255,.25);
+    color: #fff;
+}
+
+.content-header {
+	padding: 3px 15px;
+	font-size: 0.875rem;
+}
+
+.content-header.sports {
+    background: #f99116;
+    color: #222;
+}
+
+.content-header.politics {
+    background: #003264;
+    color: #fff;
+}
+
+.content-holder p {
+	margin: 0;
+	padding: 10px;
+	font-size: 0.875rem;
+    line-height: 16px;
+}
+
+.content-holder a {
+    color: #fff;
+    font-weight: 400;
+}
+
+.tag .image-holder { 
+    border: 1px solid rgba(255,255,255,.25);
+}
+
+.tag .content-holder {
+    display: table;
+    width: 85%;
+    height: auto;
+    min-height: 35px;
+    bottom: -10%;
+    margin: 0 auto;
+    background: rgba(34,34,34,.9);
+    border: 1px solid rgba(255,255,255,.25);
+    text-align: center;
+}
+
+.tag .content-holder p {
+    display: table-cell;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.flex-row .flex-item.heading {
+    margin-bottom: 0;
+    color: #fff;
+}
+
+.heading h3 {
+    margin-bottom: 10px;
+}
+
+
+/* media queries */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.75em;
+        line-height: 32px;
+    }
+
+	/* .flex-container {
+	    width: 100%;
+	} */
+
+	.flex-row {
+	    flex-direction: column;
+	    margin: 0;
+	}
+
+	.flex-row .flex-item,
+	.flex-row .flex-item:last-child {
+	    margin: 0;
+	}
+
+	.panel {
+		border: none;
+		border-bottom: 1px solid #d5d5d5;
+		border-radius: 0;
+	}
+}
+
+
+@media (max-width: 600px) {
+    .tag .content-holder {
+        bottom: 0;
+        width: 100%;
+        border-left: none;
+        border-bottom: none;
+        border-right: none;
+    }
+}
+
+
+
+.navbar a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* banner and centering */
+.flex-banner {
+	display: flex;
+	height: 600px;
+	max-width: 700px;
+	margin: 0 auto 20px;
+	background: #2a2a2a;
+	color: #fff;
+}
+
+.flex-banner>div {
+	width: 75%;
+	margin: auto;
+}
+
+.flex-banner i {
+	display: block;
+	text-align: center;
+	color: #f80;
+	font-size: 204px;
+	text-shadow: 2px 2px 2px #000;
+}
+
+
+
+
+
+/* new stuff */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container.first {
+	margin-top: 100px;
+}
+
+.grid {
+	display: flex;
+	justify-content: space-between;
+}
+
+article {
+	position: relative;
+}
+
+@media (max-width: 900px) {
+	.grid {
+	    flex-direction: column;
+	}
+}
+
+.grid > article,
+.grid > div {
+	margin-bottom: 40px;
+}
+
+[data-col="2"] > article,
+[data-col="2"] > div {
+	flex-basis: 48%;
+}
+
+[data-col="3"] > article,
+[data-col="3"] > div {
+	flex-basis: 31%;
+}
+
+[data-col="4"] > article,
+[data-col="4"] > div {
+	flex-basis: 23%;
+}
+
+[data-col="5"] > article,
+[data-col="5"] > div {
+	flex-basis: 18%;
+}
+
+[data-col="2-1-1"] > article:nth-child(1),
+[data-col="2-1-1"] > div:nth-child(1),
+[data-col="1-2-1"] > article:nth-child(2),
+[data-col="1-2-1"] > div:nth-child(2),
+[data-col="1-1-2"] > article:nth-child(3),
+[data-col="1-1-2"] > div:nth-child(3) {
+	flex-basis: 50%;
+}
+
+[data-col="2-1-1"] > article:nth-child(2),
+[data-col="2-1-1"] > div:nth-child(2) ,
+[data-col="2-1-1"] > article:nth-child(3),
+[data-col="2-1-1"] > div:nth-child(3),
+[data-col="1-1-2"] > article:nth-child(1),
+[data-col="1-1-2"] > div:nth-child(1) ,
+[data-col="1-1-2"] > article:nth-child(2),
+[data-col="1-1-2"] > div:nth-child(2),
+[data-col="1-2-1"] > article:nth-child(1),
+[data-col="1-2-1"] > div:nth-child(1) ,
+[data-col="1-2-1"] > article:nth-child(3),
+[data-col="1-2-1"] > div:nth-child(3) {
+	flex-basis: 23%;
+}
+
+[data-margin="0"] > div,
+[data-margin="0"] > article {
+	flex: 1 1 0;
+    position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+@media (max-width: 900px) {
+	[data-col="2-1-1"],
+	[data-col="1-1-2"],
+	[data-col="1-2-1"] {
+		flex-direction: column;
+	}
+}
